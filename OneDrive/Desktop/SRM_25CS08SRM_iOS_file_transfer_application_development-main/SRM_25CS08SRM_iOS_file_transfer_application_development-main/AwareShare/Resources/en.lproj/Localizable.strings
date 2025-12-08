@@ -1,0 +1,5 @@
+/* Error Overlay */
+"error_overlay_title" = "Error";
+"error_overlay_dismiss" = "Dismiss";
+"error_overlay_retry" = "Retry";
+

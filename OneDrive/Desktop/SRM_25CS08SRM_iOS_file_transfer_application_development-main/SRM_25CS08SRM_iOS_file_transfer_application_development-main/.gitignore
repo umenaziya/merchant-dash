@@ -1,0 +1,4 @@
+.config/
+
+# Xcode user-specific data
+AwareShareApp.xcodeproj/xcuserdata/

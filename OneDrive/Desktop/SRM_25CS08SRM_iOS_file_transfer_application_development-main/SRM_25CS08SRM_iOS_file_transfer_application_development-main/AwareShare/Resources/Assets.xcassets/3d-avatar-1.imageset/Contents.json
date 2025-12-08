@@ -1,0 +1,24 @@
+{
+  "images" : [
+    {
+      "filename" : "3d-avatar-1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "<2x-image-filename>"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "<3x-image-filename>"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
+

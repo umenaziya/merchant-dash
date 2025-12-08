@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B63E0EF2E6A3DBD00FDD045 /* WiFiAware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B63E0EE2E6A3DBD00FDD045 /* WiFiAware.framework */; };
+		7BA3555A2E5E46FC0007C969 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA355592E5E46FC0007C969 /* Network.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BA355012E5E38F70007C969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA354EB2E5E38F60007C969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA354F22E5E38F60007C969;
+			remoteInfo = AwareShare;
+		};
+		7BA3550B2E5E38F70007C969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA354EB2E5E38F60007C969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA354F22E5E38F60007C969;
+			remoteInfo = AwareShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B63E0EE2E6A3DBD00FDD045 /* WiFiAware.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WiFiAware.framework; path = System/Library/Frameworks/WiFiAware.framework; sourceTree = SDKROOT; };
+		7BA355592E5E46FC0007C969 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		7BC9097D2E71AF3F00F82FB0 /* AwareShareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwareShareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC9097E2E71AF3F00F82FB0 /* AwareShareAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwareShareAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC9097F2E71AF3F00F82FB0 /* AwareShareAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwareShareAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEDC21D2E93064400AD3168 /* Wi-Fi Aware Sample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Wi-Fi Aware Sample.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7BA354F52E5E38F60007C969 /* AwareShare */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AwareShare;
+			sourceTree = "<group>";
+		};
+		7BA355032E5E38F70007C969 /* AwareShareTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AwareShareTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BA354F02E5E38F60007C969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B63E0EF2E6A3DBD00FDD045 /* WiFiAware.framework in Frameworks */,
+				7BA3555A2E5E46FC0007C969 /* Network.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA354FD2E5E38F70007C969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA355072E5E38F70007C969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BEDC2322E93064400AD3168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BA354EA2E5E38F60007C969 = {
+			isa = PBXGroup;
+			children = (
+				7BA354F52E5E38F60007C969 /* AwareShare */,
+				7BA355032E5E38F70007C969 /* AwareShareTests */,
+				7BA355562E5E46F10007C969 /* Frameworks */,
+				7BC9097D2E71AF3F00F82FB0 /* AwareShareApp.app */,
+				7BC9097E2E71AF3F00F82FB0 /* AwareShareAppTests.xctest */,
+				7BC9097F2E71AF3F00F82FB0 /* AwareShareAppUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		7BA355562E5E46F10007C969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B63E0EE2E6A3DBD00FDD045 /* WiFiAware.framework */,
+				7BA355592E5E46FC0007C969 /* Network.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BA354F22E5E38F60007C969 /* AwareShareApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA355142E5E38F70007C969 /* Build configuration list for PBXNativeTarget "AwareShareApp" */;
+			buildPhases = (
+				7BA354EF2E5E38F60007C969 /* Sources */,
+				7BA354F02E5E38F60007C969 /* Frameworks */,
+				7BA354F12E5E38F60007C969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7BA354F52E5E38F60007C969 /* AwareShare */,
+			);
+			name = AwareShareApp;
+			packageProductDependencies = (
+			);
+			productName = AwareShare;
+			productReference = 7BC9097D2E71AF3F00F82FB0 /* AwareShareApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BA354FF2E5E38F70007C969 /* AwareShareAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA355172E5E38F70007C969 /* Build configuration list for PBXNativeTarget "AwareShareAppTests" */;
+			buildPhases = (
+				7BA354FC2E5E38F70007C969 /* Sources */,
+				7BA354FD2E5E38F70007C969 /* Frameworks */,
+				7BA354FE2E5E38F70007C969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA355022E5E38F70007C969 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7BA355032E5E38F70007C969 /* AwareShareTests */,
+			);
+			name = AwareShareAppTests;
+			packageProductDependencies = (
+			);
+			productName = AwareShareTests;
+			productReference = 7BC9097E2E71AF3F00F82FB0 /* AwareShareAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BA355092E5E38F70007C969 /* AwareShareAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA3551A2E5E38F70007C969 /* Build configuration list for PBXNativeTarget "AwareShareAppUITests" */;
+			buildPhases = (
+				7BA355062E5E38F70007C969 /* Sources */,
+				7BA355072E5E38F70007C969 /* Frameworks */,
+				7BA355082E5E38F70007C969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA3550C2E5E38F70007C969 /* PBXTargetDependency */,
+			);
+			name = AwareShareAppUITests;
+			packageProductDependencies = (
+			);
+			productName = AwareShareUITests;
+			productReference = 7BC9097F2E71AF3F00F82FB0 /* AwareShareAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BA354EB2E5E38F60007C969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					7BA354F22E5E38F60007C969 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					7BA354FF2E5E38F70007C969 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 7BA354F22E5E38F60007C969;
+					};
+					7BA355092E5E38F70007C969 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 7BA354F22E5E38F60007C969;
+					};
+				};
+			};
+			buildConfigurationList = 7BA354EE2E5E38F60007C969 /* Build configuration list for PBXProject "AwareShareApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BA354EA2E5E38F60007C969;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7BA354EA2E5E38F60007C969;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7BEDC2322E93064400AD3168 /* Products */;
+					ProjectRef = 7BEDC21D2E93064400AD3168 /* Wi-Fi Aware Sample.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7BA354F22E5E38F60007C969 /* AwareShareApp */,
+				7BA354FF2E5E38F70007C969 /* AwareShareAppTests */,
+				7BA355092E5E38F70007C969 /* AwareShareAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BA354F12E5E38F60007C969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA354FE2E5E38F70007C969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA355082E5E38F70007C969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BA354EF2E5E38F60007C969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA354FC2E5E38F70007C969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA355062E5E38F70007C969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BA355022E5E38F70007C969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA354F22E5E38F60007C969 /* AwareShareApp */;
+			targetProxy = 7BA355012E5E38F70007C969 /* PBXContainerItemProxy */;
+		};
+		7BA3550C2E5E38F70007C969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA354F22E5E38F60007C969 /* AwareShareApp */;
+			targetProxy = 7BA3550B2E5E38F70007C969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7BA355122E5E38F70007C969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K75YG36RDS;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BA355132E5E38F70007C969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K75YG36RDS;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BA355152E5E38F70007C969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AwareShare/Resources/AwareShare.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = K75YG36RDS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to discover and connect to nearby devices for file sharing.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to discover and connect to nearby devices for file sharing.";
+				INFOPLIST_KEY_NSBluetoothWhileInUseUsageDescription = "Needed to discover and connect to nearby devices using Bluetooth";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow AwareShare to use the camera to capture media for sending";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "AwareShare allows you to share documents and files with nearby devices using Wi-Fi Aware technology.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app uses local network discovery to find nearby devices for file sharing.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses location to improve device discovery accuracy.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "AwareShare needs microphone access to record and share audio files with nearby devices.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow AwareShare to save received photos and videos to your library";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow Awareshare to access your photos for sending";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srmist.AwareShareApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BA355162E5E38F70007C969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AwareShare/Resources/AwareShare.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = K75YG36RDS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to discover and connect to nearby devices for file sharing.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to discover and connect to nearby devices for file sharing.";
+				INFOPLIST_KEY_NSBluetoothWhileInUseUsageDescription = "Needed to discover and connect to nearby devices using Bluetooth";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow AwareShare to use the camera to capture media for sending";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "AwareShare allows you to share documents and files with nearby devices using Wi-Fi Aware technology.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app uses local network discovery to find nearby devices for file sharing.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses location to improve device discovery accuracy.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "AwareShare needs microphone access to record and share audio files with nearby devices.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow AwareShare to save received photos and videos to your library";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow Awareshare to access your photos for sending";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srmist.AwareShareApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BA355182E5E38F70007C969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K75YG36RDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srmist.AwareShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwareShareApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AwareShareApp";
+			};
+			name = Debug;
+		};
+		7BA355192E5E38F70007C969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K75YG36RDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srmist.AwareShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwareShareApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AwareShareApp";
+			};
+			name = Release;
+		};
+		7BA3551B2E5E38F70007C969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K75YG36RDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srmist.AwareShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AwareShare;
+			};
+			name = Debug;
+		};
+		7BA3551C2E5E38F70007C969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K75YG36RDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srmist.AwareShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AwareShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BA354EE2E5E38F60007C969 /* Build configuration list for PBXProject "AwareShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA355122E5E38F70007C969 /* Debug */,
+				7BA355132E5E38F70007C969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA355142E5E38F70007C969 /* Build configuration list for PBXNativeTarget "AwareShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA355152E5E38F70007C969 /* Debug */,
+				7BA355162E5E38F70007C969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA355172E5E38F70007C969 /* Build configuration list for PBXNativeTarget "AwareShareAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA355182E5E38F70007C969 /* Debug */,
+				7BA355192E5E38F70007C969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA3551A2E5E38F70007C969 /* Build configuration list for PBXNativeTarget "AwareShareAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA3551B2E5E38F70007C969 /* Debug */,
+				7BA3551C2E5E38F70007C969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BA354EB2E5E38F60007C969 /* Project object */;
+}
